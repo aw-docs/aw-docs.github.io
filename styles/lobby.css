@@ -1,0 +1,51 @@
+h1, h2 {
+    font-family: 'Noto Serif', serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+p, li {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 17px;
+}
+
+main, footer {
+    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #0099BF;
+}
+
+a:hover {
+    background-color: #00FF00;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+    padding: 0.5em;
+    border: thin silver solid;
+    width: 700px;
+    max-width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
