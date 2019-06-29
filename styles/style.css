@@ -34,3 +34,7 @@ a:hover {
 #links {
     padding-left: 5px;
 }
+
+::selection {
+    background: #ffff00;
+}

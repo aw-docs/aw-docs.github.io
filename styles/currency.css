@@ -49,3 +49,6 @@ figcaption {
     font-style: italic;
 }
 
+::selection {
+    background: #ffff00;
+}

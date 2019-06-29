@@ -48,3 +48,7 @@ figcaption {
     text-align: center;
     font-style: italic;
 }
+
+::selection {
+    background: #ffff00;
+}
