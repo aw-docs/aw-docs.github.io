@@ -31,8 +31,21 @@ a:hover {
     background-color: #00FF00;
 }
 
-#links {
-    padding-left: 5px;
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+figure {
+    padding: 0.5em;
+    border: thin silver solid;
+    width: 98%;
+    margin: auto;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
 }
 
 ::selection {
@@ -69,4 +82,12 @@ a:hover {
         margin-top: 50px;
         margin-bottom: 50px;
     }
+}
+
+h2 {
+    background: rgb(85, 85 ,231);
+    background: linear-gradient(45deg, rgb(85, 85, 231), rgb(128,128, 228));
+    color: white;
+    padding: 5px;
+    text-shadow: 1px 1px black;
 }
